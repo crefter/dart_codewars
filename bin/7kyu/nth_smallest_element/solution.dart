@@ -1,0 +1,1 @@
+int nthSmallest(List<int> arr, int pos) => (arr..sort())[pos - 1];
