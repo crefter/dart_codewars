@@ -1,0 +1,1 @@
+int stairsIn20(List<List<int>> arr) => arr.fold<int>(0, (previousValue, element) => previousValue + element.reduce((value, elem) => value + elem)) * 20;
