@@ -4,7 +4,6 @@ String rgb(int r, int g, int b) {
   r = toRelevantHEXNumber(r);
   g = toRelevantHEXNumber(g);
   b = toRelevantHEXNumber(b);
-  String a = "";
   result.write(toRelevantRadixString(r, radix));
   result.write(toRelevantRadixString(g, radix));
   result.write(toRelevantRadixString(b, radix));
